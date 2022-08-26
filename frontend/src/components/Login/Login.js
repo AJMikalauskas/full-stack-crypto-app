@@ -3,21 +3,21 @@ import styles from "./Login.module.css";
 import {
   Button,
   FormControl,
-  IconButton,
-  InputAdornment,
+  //IconButton,
+//  InputAdornment,
   InputLabel,
   OutlinedInput,
   TextField,
-  Link
+//  Link
 } from "@mui/material";
 import logo from "../../images/logoImg.jpg";
-import technoPic from "../../images/technoBgSignUp.jpg";
+//import technoPic from "../../images/technoBgSignUp.jpg";
 import loginSidePic from "../../images/technoWaves.jpg"
-import VisibilityOff from "@mui/icons-material/VisibilityOff";
-import { Visibility } from "@mui/icons-material";
+//import VisibilityOff from "@mui/icons-material/VisibilityOff";
+//import { Visibility } from "@mui/icons-material";
 import axios from "../../api/axios";
 import useAuth from "../../hooks/useAuth";
-import { Link as ReactRouterLink, useNavigate, useLocation} from "react-router-dom";
+import { useNavigate, useLocation} from "react-router-dom";
 const LOGIN_URL = '/login';
 
 const Login = () => {
@@ -33,7 +33,7 @@ const Login = () => {
 
   // Success or Fail Login States -> error message is for specific requirements in password and email
   const [errMsg, setErrMsg] = useState("");
-  const [success, setSuccess] = useState(false);
+  //const [success, setSuccess] = useState(false);
 
   // Navigate to different pages including the history back button, sign in, not sign up page,
   const navigate = useNavigate();
