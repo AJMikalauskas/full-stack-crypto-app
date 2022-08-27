@@ -546,3 +546,12 @@
 20220826	10:25:11	e6155757-98d2-4e44-864b-4382a383dc91	POST	http://localhost:3000	/coins/retrieve
 20220826	10:31:48	cce456c2-0e80-4d91-afca-0df7368d48a0	POST	undefined	/login
 20220826	10:32:46	98c51d2f-fdd3-42d9-92b0-a382d2870ed6	GET	undefined	/admins
+20220827	08:18:43	c4be6540-5b7b-4df0-9574-793c11ff4642	OPTIONS	http://localhost:3000	/login
+20220827	08:18:43	d7ac41a5-1b60-4658-9f80-9289ad509ef8	POST	http://localhost:3000	/login
+20220827	08:18:44	580133d5-e213-4c9b-8ffd-5b12d40dcb85	OPTIONS	http://localhost:3000	/coins/retrieve
+20220827	08:18:44	3381af06-b31c-42a2-9541-728134422322	POST	http://localhost:3000	/coins/retrieve
+20220827	08:24:51	f7d57181-7356-4e3c-ad5d-243c92ca7b6d	OPTIONS	http://localhost:3000	/login
+20220827	08:24:51	9bd56682-27d1-47c3-9f99-bab6cc8fb2d8	POST	http://localhost:3000	/login
+20220827	08:24:51	c1cc7876-d71c-4452-a1f3-0d32859f960c	OPTIONS	http://localhost:3000	/coins/retrieve
+20220827	08:24:51	aa4eb315-cf14-456c-8eea-466e1c9ddd51	POST	http://localhost:3000	/coins/retrieve
+20220827	08:25:03	e02cd54a-5dbd-4c5b-8306-c7869ee1f07b	GET	http://localhost:3000	/refresh
