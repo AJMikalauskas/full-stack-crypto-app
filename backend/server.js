@@ -41,6 +41,11 @@ app.use(cookieParser());
 // serve static files
 app.use('/', express.static(path.join(__dirname, '/public')));
 
+// To make sure app is running on heroku
+app.get('/', (req,res) => {
+    res.send('APP IS RUNNING');
+})
+
 // routes
 app.use('/', require('./routes/root'));
 // for adding coins to db, and creating similar foreign key relationship as SQL does.
