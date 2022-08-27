@@ -5,7 +5,7 @@ const path = require("path");
 const connectDB = async () => {
     try {
         // See Docs to understand the options passed in 2nd param objec; 1st param is the connection string
-        await mongoose.connect(process.env.DATBASE_URI, {
+        await mongoose.connect("mongodb+srv://testBackend:test123@cluster0.yogqh.mongodb.net/MockCryptoDB?retryWrites=true&w=majority", {
             useUnifiedTopology: true,
             useNewUrlParser: true
         })
