@@ -205,7 +205,9 @@ const removeCoinFromDb = async(name) => {
                   <section className={styles.mainGraphTrendListsSection1}>
                     <h1 className={styles.h1}>Welcome To Your Portfolio - #1 Bitcoin Chart Below:</h1>
                      <div className={styles.portfolioMoneyGraph}> 
-                     <MyChart coinName="bitcoin" daysForChart="7" />
+                     {/* <Button onClick={}>Add chart data to mongo</Button> */}
+                     {/*  daysForChart="7"  */}
+                     <MyChart coinName="bitcoin"/>
                     {/* <Carousel>
                       {carouselCoinData > 0 && carouselCoinData.map((coin) => ( 
                       <Carousel.Item interval={3000}>
