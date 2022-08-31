@@ -152,7 +152,10 @@ const {setAuth} = useContext(AuthContext);
          setLastname("");
          setEmail("");
          setPassword("");
-         navigate("/loggedInHome")
+         setTimeout(() => {
+          alert("Your informaton has been added to our database, please Login when redirected.");
+          navigate("/login");
+         }, 1000);
     } catch(err) {
       if(!err?.response) {
         setErrMsg('No Server Response');
